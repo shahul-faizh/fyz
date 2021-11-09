@@ -1,0 +1,8 @@
+def palindrome(string):
+    rev=string[::-1]
+    if string == rev :
+        return "palindrome"
+    else:
+        return "not a palindrome"
+string=("313")
+print(palindrome(string))
